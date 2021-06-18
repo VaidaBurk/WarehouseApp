@@ -1,0 +1,20 @@
+﻿1. we will create warehousing solution which basically has just two actions: ADD and LIST
+	Add 'Item name' -> saves new item into list of items; item always string (name)
+	List -> prints all items
+	Remove item -> 'ItemName'
+
+2. Program should not terminate until 'Exit' is written;
+
+	Example:
+	Add Item1
+	Add Item2
+	List
+	Items are Item1, Item2
+	Add Item1
+	Items are Item1, Item2, Item1
+	Exit
+	// program terminates
+
+	Class -> Warehouse
+	Method -> Add
+	Method -> List
